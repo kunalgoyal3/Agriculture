@@ -1,0 +1,108 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #0077b6;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="file"] {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #005b8a;
+  }
+  
+  ul#entries {
+    list-style: none;
+    margin-top: 50px;
+    padding: 0;
+  }
+  
+  ul#entries li {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul#entries li img {
+    display: block;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul#entries li p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  ul#entries li span {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    form {
+      width: 90%;
+    }
+    
+    ul#entries li {
+      flex-wrap: wrap;
+    }
+    
+    ul#entries li img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    ul#entries li p {
+      width: 100%;
+    }
+  }
+
+
+  
+  
